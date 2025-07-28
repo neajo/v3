@@ -1,86 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula de HTML - Jean Carlos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            font-size: 2.5em;
-        }
-        .minha-foto {
-            display: block;
-            margin: 20px auto;
-            width: 250px;
-            border-radius: 50%;
-            border: 5px solid #3498db;
-        }
-        .meu-nome {
-            text-align: center;
-            font-size: 1.8em;
-            color: #e74c3c;
-            margin-bottom: 30px;
-        }
-        .link-proxima {
-            display: inline-block;
-            margin-top: 30px;
-            font-size: 1.5em;
-            text-decoration: none;
-            color: #2c3e50;
-            background-color: #ecf0f1;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: all 0.3s;
-        }
-        .link-proxima:hover {
-            background-color: #3498db;
-            color: white;
-        }
-        .seta-grande {
-            font-size: 1.5em;
-            margin-left: 10px;
-        }
-    </style>
+    <title>Página do Jean</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Aula de HTML e CSS</h1>
-        
-        <div class="meu-nome">Jean Carlos de Souza Vicente</div>
-        
-        <img src="jean.webp" alt="Foto de Jean Carlos" class="minha-foto">
-        
-        <p style="font-size: 1.2em; line-height: 1.6;">
-            Olá! Esta é minha página de estudos de HTML e CSS.<br>
-            Aqui estou aprendendo a criar sites e desenvolver minhas habilidades web.
-        </p>
-        
-        <ul style="font-size: 1.1em;">
-            <li>HTML: Estrutura de páginas web</li>
-            <li>CSS: Estilização e design</li>
-            <li>JavaScript: Interatividade (em breve)</li>
-        </ul>
-        
-        <a href="pagina2.html" class="link-proxima">
-            Aula Burzuk <span class="seta-grande">→</span>
-        </a>
+    <!-- Seta fixa à esquerda -->
+    <div style="position: fixed; left: 10px; top: 50%; transform: translateY(-50%); font-size: 30px;">
+        <a href="pagina2.html" style="text-decoration: none;">→</a>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div style="margin-left: 50px;">
+        <h1>Jean Carlos</h1>
+        <img src="jean.webp" alt="Jean" width="150">
+        <p>Aula Burzuk</p>
     </div>
 </body>
 </html>
