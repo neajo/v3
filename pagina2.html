@@ -1,1 +1,96 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Burzuk - Marcio Burzuk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .nome-professor {
+            text-align: center;
+            font-size: 1.8em;
+            color: #27ae60;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .foto-professor {
+            display: block;
+            margin: 20px auto;
+            width: 250px;
+            border-radius: 50%;
+            border: 5px solid #2ecc71;
+        }
+        .link-voltar {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 1.5em;
+            text-decoration: none;
+            color: #2c3e50;
+            background-color: #ecf0f1;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .link-voltar:hover {
+            background-color: #2ecc71;
+            color: white;
+        }
+        .seta-grande {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        .conteudo-aula {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aula Burzuk</h1>
+        
+        <div class="nome-professor">Marcio Burzuk</div>
+        
+        <!-- Adicione uma foto do professor se tiver (substitua burzuk.webp) -->
+        <img src="burzuk.webp" alt="Foto do Professor Marcio Burzuk" class="foto-professor">
+        
+        <div class="conteudo-aula">
+            <p><strong>Conteúdo da Aula:</strong></p>
+            <ul>
+                <li>Introdução ao HTML avançado</li>
+                <li>Técnicas de CSS moderno</li>
+                <li>Responsividade para dispositivos móveis</li>
+                <li>Dicas profissionais para desenvolvimento web</li>
+            </ul>
+            
+            <p><strong>Horário das Aulas:</strong><br>
+            Segundas e Quartas, 19:00 às 22:00</p>
+        </div>
+        
+        <a href="index.html" class="link-voltar">
+            <span class="seta-grande">←</span> Voltar para Jean Carlos
+        </a>
+    </div>
+</body>
+</html>
